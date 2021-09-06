@@ -21,3 +21,15 @@ npm i express
 ```bash
 npm i dotenv
 ```
+## Installing `nodemon` package in main directory
+```bash
+npm i -D nodemon
+```
+## Installing `mongoose` package in main directory
+```bash
+npm i mongoose
+```
+## Installing `bcrypt` package in main directory
+```bash
+npm i bcryptjs
+```
