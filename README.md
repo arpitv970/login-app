@@ -41,5 +41,6 @@ npm i jsonwebtoken
 ```
 ## To get random generated string for token
 ```bash
+node
 require('crypto').randomBytes(35).toString("hex")
 ```
