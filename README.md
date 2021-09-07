@@ -17,19 +17,29 @@ to install npm using `npm`
 ```bash
 npm i express
 ```
-## Installing `dotenv` package in main directory
+## Packages Available
+
+### `dotenv`
 ```bash
 npm i dotenv
 ```
-## Installing `nodemon` package in main directory
+### `nodemon`
 ```bash
 npm i -D nodemon
 ```
-## Installing `mongoose` package in main directory
+### `mongoose`
 ```bash
 npm i mongoose
 ```
-## Installing `bcrypt` package in main directory
+### `bcrypt`
 ```bash
 npm i bcryptjs
+```
+### `jsonwebtoken`
+```bash
+npm i jsonwebtoken
+```
+## To get random generated string for token
+```bash
+require('crypto').randomBytes(35).toString("hex")
 ```
